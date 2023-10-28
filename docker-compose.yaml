@@ -1,0 +1,15 @@
+---
+
+services:
+  vue-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./app:/app
+    tty: true
+    stdin_open: true
+    environment:
+      - NODE_ENV=development
