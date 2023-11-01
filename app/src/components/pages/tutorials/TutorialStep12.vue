@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import ChildComp from './ChildComp12.vue'
+import ChildComp from './TutorialStep12ChildComp.vue'
 
 const greeting = ref('Hello from parent')
 </script>

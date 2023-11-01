@@ -1,5 +1,5 @@
 <script setup>
-import ChildComp from './ChildComp11.vue'
+import ChildComp from './TutorialStep11ChildComp.vue'
 </script>
 
 <template>
