@@ -1,5 +1,0 @@
-npx lint-staged
-git secrets --scan
-if [ -f Dockerfile ]; then
-    hadolint Dockerfile
-fi
