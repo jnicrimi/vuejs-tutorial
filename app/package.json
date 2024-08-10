@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^3.38.0",
     "js-confetti": "^0.12.0",
-    "vue": "^3.2.13"
+    "vue": "^3.4.37"
   },
   "devDependencies": {
     "@babel/core": "^7.24.8",
